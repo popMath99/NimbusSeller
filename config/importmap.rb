@@ -7,6 +7,5 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 pin "bootstrap", to: "bootstrap.min.js", preload: true
 pin "@popperjs/core", to: "popper.js", preload: true
 
-# Ajout de three.js et GLTFLoader depuis npm
-pin "three", to: "three/build/three.module.js"
-pin "GLTFLoader", to: "three/examples/jsm/loaders/GLTFLoader.js"
+pin "three", to: "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js", preload: true
+pin "GLTFLoader", to: "https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/jsm/loaders/GLTFLoader.js", preload: true
