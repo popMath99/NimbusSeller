@@ -1,4 +1,4 @@
 class User < ApplicationRecord
   has_many :brooms
-  validates :username, presence: true
+  validates :username, :password, presence: true
 end
